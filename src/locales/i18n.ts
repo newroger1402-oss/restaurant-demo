@@ -14,8 +14,9 @@ i18n
     },
     supportedLngs: ['en', 'es'],
     nonExplicitSupportedLngs: true,
+    lng: 'en',
     detection: {
-      order: ['querystring', 'localStorage', 'navigator'],
+      order: ['querystring', 'localStorage'],
       caches: ['localStorage'],
     },
     fallbackLng: 'en',
