@@ -130,7 +130,7 @@
     },
     "hours": {
       "title": "Horarios",
-      "schedule": "Martes-Domingo: 7am | Lunes: Cerrado"
+      "schedule": "Martes-Domingo: 7am-11pm | Lunes: Cerrado"
     },
     "faq": {
       "title": "Preguntas Frecuentes",
@@ -399,10 +399,10 @@
       "location": "2340 SW 8th Street, Miami, FL 33135 (Little Havana)",
       "phone": "+1 (305) 555-2390",
       "email": "hola@cieloymaiz.com",
-      "hours": "Martes-Domingo: 7am\nLunes: Cerrado",
-      "hours_compact": "Martes-Domingo: 7am\nLunes: Cerrado",
-      "hours_card": "Martes-Domingo: 7am\nLunes: Cerrado",
-      "weekend_highlight": "Martes-Domingo: 7am · Lunes: Cerrado",
+      "hours": "Martes-Domingo: 7am-11pm\nLunes: Cerrado",
+      "hours_compact": "Martes-Domingo: 7am-11pm\nLunes: Cerrado",
+      "hours_card": "Martes-Domingo: 7am-11pm\nLunes: Cerrado",
+      "weekend_highlight": "Martes-Domingo: 7am-11pm · Lunes: Cerrado",
       "languages": "Español, Inglés"
     },
     "form": {

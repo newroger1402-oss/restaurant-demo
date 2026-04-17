@@ -73,7 +73,7 @@ export const CONTACT_INFO = {
   LOCATION: '2340 SW 8th Street, Miami, FL 33135',
 
   // Business Hours
-  HOURS: 'Tuesday-Sunday: 7am\nMonday: Closed',
+  HOURS: 'Tuesday-Sunday: 7am-11pm\nMonday: Closed',
 
   // Supported Languages
   LANGUAGES: ['Español', 'Inglés'] as const,
