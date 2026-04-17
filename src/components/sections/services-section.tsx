@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { APP_SERVICES } from '../../config/constants';
 
 export const ServicesSection: React.FC = () => {
@@ -62,15 +62,27 @@ export const ServicesSection: React.FC = () => {
                   <p className="text-(--color-text-muted) text-base sm:text-lg leading-relaxed mb-6">
                     {t(`services.${service.key}.description`)}
                   </p>
-                  <button
-                    onClick={() => handleClick(service.key)}
-                    className="inline-flex items-center gap-2 text-(--color-primary) font-semibold hover:text-(--color-primary-hover) transition-colors group/link cursor-pointer bg-transparent border-none p-0 text-base"
-                  >
-                    {t('services.cta') || 'Solicitar información'}
-                    <svg className="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                    </svg>
-                  </button>
+                  <div className="flex flex-wrap items-center gap-4">
+                    <button
+                      onClick={() => handleClick(service.key)}
+                      className="inline-flex items-center gap-2 text-(--color-primary) font-semibold hover:text-(--color-primary-hover) transition-colors group/link cursor-pointer bg-transparent border-none p-0 text-base"
+                    >
+                      {t('services.cta') || 'Solicitar información'}
+                      <svg className="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                    <Link
+                      to="/gallery"
+                      className="inline-flex items-center gap-2 text-(--color-text-muted) hover:text-(--color-bg-dark) transition-colors text-sm"
+                    >
+                      {t('services.more_info') || 'Ver más'}
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                      </svg>
+                    </Link>
+                  </div>
                 </div>
               </div>
             );

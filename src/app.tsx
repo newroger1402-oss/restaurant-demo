@@ -8,6 +8,7 @@ import {
   AboutPage,
   ContactPage,
   FAQPage,
+  GalleryPage,
 } from './pages';
 
 function AppContent() {
@@ -20,6 +21,7 @@ function AppContent() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/faq" element={<FAQPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
       </Routes>
       <SocialFab />
     </>

@@ -64,7 +64,6 @@ export const CONTACT_INFO = {
   SOCIAL: {
     INSTAGRAM: 'https://instagram.com/cieloymaiz.mia',
     FACEBOOK: 'https://facebook.com/cieloymaizmiami',
-    TIKTOK: 'https://tiktok.com/@tacosymezcal.mia',
     GOOGLE: 'https://g.page/cieloymaiz',
   },
 
@@ -109,6 +108,7 @@ export const REVIEWS_WIDGET_ID = '';
 export const NAV_LINKS = [
   { key: 'home', path: '/' },
   { key: 'services', path: '/services' },
+  { key: 'gallery', path: '/gallery' },
   { key: 'about', path: '/about' },
   { key: 'faq', path: '/faq' },
   { key: 'contact', path: '/contact' },

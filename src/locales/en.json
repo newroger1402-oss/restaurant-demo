@@ -2,6 +2,7 @@
   "common": {
     "home": "Home",
     "services": "Menu",
+    "gallery": "Gallery",
     "about": "About Us",
     "faq": "FAQ",
     "contact": "Reservations",
@@ -14,6 +15,7 @@
     "nav": {
       "home": "Home",
       "services": "Menu",
+      "gallery": "Gallery",
       "about": "About Us",
       "contact": "Reservations",
       "faq": "FAQ"
@@ -24,12 +26,16 @@
       "es": "ES"
     }
   },
+  "business": {
+    "tagline": "Mexican Cuisine with Soul"
+  },
   "footer": {
     "about": "Authentic Mexican cuisine made by Mexican hands in Miami. Hand-nixtamalized corn, Oaxacan chiles, and recipes that cross borders without losing their soul.",
     "quick_links": {
       "title": "Quick Links",
       "home": "Home",
       "services": "Menu",
+      "gallery": "Gallery",
       "about": "About Us",
       "contact": "Reservations",
       "faq": "FAQ"
@@ -50,7 +56,7 @@
       "phone": "+1 (305) 555-2390",
       "email": "hola@cieloymaiz.com"
     },
-    "crescendo": "Powered by Crescendo Marketing",
+    "marketing_by": "Marketing by {{agency}}",
     "copyright": "© {{year}} Cielo y Maíz. All rights reserved.",
     "copyright_rights": "All rights reserved."
   },
@@ -106,7 +112,8 @@
   "services": {
     "title": "Our Menu",
     "subtitle": "Authentic Mexican cuisine prepared with love, tradition, and the finest ingredients.",
-    "cta": "Book a Table",
+    "cta": "Book a table",
+    "more_info": "See more",
     "entradas": {
       "title": "Starters",
       "description": "Begin your experience with our delicious starters prepared with fresh ingredients and Mexican tradition."
@@ -165,17 +172,98 @@
     "title": "Our Story",
     "subtitle": "Where Mexican tradition meets Miami's warmth",
     "story": "Founded in 2019 by the Vega brothers, originally from Puebla and living in Miami for over 15 years. They started as a small stand at a local fair; today they are a gathering point for the Mexican community and food lovers. Every recipe comes from their grandmother Doña Elena.",
+    "story_extra": "Every morning, before we open our doors, our team hand-nixtamalizes the corn following the ancestral method. The blue tortillas we serve carry the authentic flavor of Mexico, prepared with the same love that Doña Elena used in her kitchen in Puebla.",
+    "hero_badge": "Since 2019 • Little Havana, Miami",
+    "founded": "Since 2019",
+    "location": "Little Havana, Miami",
+    "stats": {
+      "years": "Years",
+      "tortillas": "Tortillas/month",
+      "mole": "In our mole"
+    },
     "values": {
       "title": "Our Values",
       "authenticity": "Authenticity",
+      "authenticity_desc": "Traditional recipes from Puebla, authentic ingredients from Mexico.",
       "family": "Family Tradition",
+      "family_desc": "Every dish carries the love of Grandma Doña Elena.",
       "quality": "Quality",
-      "community": "Community"
+      "quality_desc": "Hand-nixtamalized corn every morning, Oaxacan chiles.",
+      "community": "Community",
+      "community_desc": "A gathering point in Little Havana."
     },
     "team": {
       "title": "The Vega Brothers",
       "description": "Bringing the flavor of Puebla to Miami, one dish at a time."
+    },
+    "cta": {
+      "title": "Come Meet Us",
+      "subtitle": "Discover the authentic taste of Mexico in Miami.",
+      "button": "Book a Table"
     }
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "subtitle": "Discover our authentic Mexican dishes prepared with tradition and love.",
+    "filters": {
+      "all": "All",
+      "starters": "Starters",
+      "mains": "Main Courses",
+      "desserts": "Desserts"
+    },
+    "items": {
+      "tlacoyos": {
+        "name": "Black Bean and Nopal Tlacoyos",
+        "description": "Blue corn masa filled with black beans, grilled nopal, fresh cheese, cream, and salsa verde."
+      },
+      "ceviche": {
+        "name": "Octopus Ceviche 'Acapulco'",
+        "description": "Tender octopus in lime juice with serrano chili, cilantro, red onion, and avocado."
+      },
+      "esquites": {
+        "name": "Street-Style Esquites",
+        "description": "Corn kernels with mayo, cotija cheese, chili powder, lime, and a hint of epazote."
+      },
+      "quesadillas": {
+        "name": "Rajas and Cheese Quesadillas",
+        "description": "Fresh tortillas filled with roasted poblano strips, melted Oaxaca cheese, epazote, and cream."
+      },
+      "cochinita": {
+        "name": "Immigrant Cochinita Tacos",
+        "description": "Achiote pork slow-cooked for 12 hours with sour orange, blue tortillas, pickled onions, and habanero."
+      },
+      "mole": {
+        "name": "Traditional Mole Poblano",
+        "description": "Made with 28 ingredients and 6 hours of cooking. Chicken breast with dark mole, red rice, and beans."
+      },
+      "enchiladas": {
+        "name": "Enchiladas de Olla",
+        "description": "Guajillo-sauce tortillas stuffed with Oaxaca cheese or beef tinga, topped with cream, onion, and fresh cheese."
+      },
+      "pescado": {
+        "name": "'Miami Heat' Grilled Fish",
+        "description": "Red snapper fillet marinated with ancho and guajillo chiles, wood-grilled, served with sweet potato and beans."
+      },
+      "tres-leches": {
+        "name": "'Miami Nights' Tres Leches Cake",
+        "description": "Soft sponge soaked in three milks, topped with coconut meringue and lime zest."
+      },
+      "churros": {
+        "name": "Cajeta-Filled Churros",
+        "description": "Crispy churros filled with goat-milk cajeta, dusted with cinnamon, served with Mexican chocolate."
+      },
+      "mamey-sorbet": {
+        "name": "Mamey Sorbet with Chili and Lime",
+        "description": "Refreshing mamey sorbet with a touch of chile piquin and key lime."
+      },
+      "flan": {
+        "name": "Mexican Cajeta Flan",
+        "description": "Classic creamy flan with homemade caramel and cajeta, inspired by Grandma Dona Elena."
+      }
+    },
+    "cta_title": "Ready to taste?",
+    "cta_subtitle": "Make your reservation and enjoy an unforgettable culinary experience.",
+    "cta_button": "Book a Table"
   },
   "contact": {
     "title": "Book Your Table",
@@ -222,5 +310,13 @@
     "notice": "For groups of 4-12 people. A $5 deposit per person is required.",
     "cta_whatsapp": "Book via WhatsApp",
     "cta_call": "Call Now"
+  },
+  "menu": {
+    "tlacoyos": "Tlacoyos",
+    "ceviche": "Ceviche",
+    "esquites": "Esquites",
+    "cochinita": "Cochinita Pibil",
+    "mole": "Mole",
+    "enchiladas": "Enchiladas"
   }
 }

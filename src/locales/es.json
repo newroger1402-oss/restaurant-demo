@@ -2,6 +2,7 @@
   "common": {
     "home": "Inicio",
     "services": "Menú",
+    "gallery": "Galería",
     "about": "Nosotros",
     "faq": "Preguntas Frecuentes",
     "contact": "Reservas",
@@ -14,6 +15,7 @@
     "nav": {
       "home": "Inicio",
       "services": "Menú",
+      "gallery": "Galería",
       "about": "Nosotros",
       "contact": "Reservas",
       "faq": "Preguntas Frecuentes"
@@ -24,12 +26,16 @@
       "es": "ES"
     }
   },
+  "business": {
+    "tagline": "Cocina Mexicana con Alma"
+  },
   "footer": {
     "about": "Auténtica cocina mexicana hecha por manos mexicanas en Miami. Maíz nixtamalizado a mano, chiles de Oaxaca y recetas que cruzan fronteras sin perder el alma.",
     "quick_links": {
       "title": "Enlaces Rápidos",
       "home": "Inicio",
       "services": "Menú",
+      "gallery": "Galería",
       "about": "Nosotros",
       "contact": "Reservas",
       "faq": "Preguntas Frecuentes"
@@ -50,6 +56,7 @@
       "phone": "+1 (305) 555-2390",
       "email": "hola@cieloymaiz.com"
     },
+    "marketing_by": "Marketing por {{agency}}",
     "crescendo": "Impulsado por Crescendo Marketing",
     "copyright": "© {{year}} Cielo y Maíz. Todos los derechos reservados.",
     "copyright_rights": "Todos los derechos reservados."
@@ -107,6 +114,7 @@
     "title": "Nuestro Menú",
     "subtitle": "Auténtica cocina mexicana preparada con amor, tradición y los mejores ingredientes.",
     "cta": "Reservar mesa",
+    "more_info": "Ver más",
     "entradas": {
       "title": "Entradas",
       "description": "Comienza tu experiencia con nuestras deliciosas entradas preparadas con ingredientes frescos y tradición mexicana."
@@ -252,17 +260,98 @@
     "title": "Nuestra Historia",
     "subtitle": "Donde la tradición mexicana encuentra el calor de Miami",
     "story": "Fundado en 2019 por los hermanos Vega, originarios de Puebla y radicados en Miami por más de 15 años. Empezaron como un pequeño puesto en una feria local; hoy son punto de encuentro para la comunidad mexicana y amantes de la buena comida. Cada receta viene de su abuela Doña Elena.",
+    "story_extra": "Cada mañana, antes de que abramos nuestras puertas, nuestro equipo nixtamaliza el maíz a mano siguiendo el método ancestral. Las tortillas azules que servimos llevan el sabor auténtico de México, preparadas con el mismo amor que Doña Elena usaba en su cocina de Puebla.",
+    "hero_badge": "Desde 2019 • Little Havana, Miami",
+    "founded": "Desde 2019",
+    "location": "Little Havana, Miami",
+    "stats": {
+      "years": "Años",
+      "tortillas": "Tortillas/mes",
+      "mole": "En nuestro mole"
+    },
     "values": {
       "title": "Nuestros Valores",
       "authenticity": "Autenticidad",
+      "authenticity_desc": "Recetas tradicionales de Puebla, ingredientes auténticos de México.",
       "family": "Tradición Familiar",
+      "family_desc": "Cada platillo lleva el amor de la abuela Doña Elena.",
       "quality": "Calidad",
-      "community": "Comunidad"
+      "quality_desc": "Maíz nixtamalizado a mano cada mañana, chiles de Oaxaca.",
+      "community": "Comunidad",
+      "community_desc": "Punto de encuentro en Little Havana."
     },
     "team": {
       "title": "Los Hermanos Vega",
       "description": "Llevando el sabor de Puebla a Miami, un platillo a la vez."
+    },
+    "cta": {
+      "title": "Ven a Conocernos",
+      "subtitle": "Descubre el auténtico sabor de México en Miami.",
+      "button": "Reservar Mesa"
     }
+  },
+  "gallery": {
+    "title": "Nuestra Galería",
+    "subtitle": "Descubre nuestros platillos mexicanos auténticos preparados con tradición y amor.",
+    "filters": {
+      "all": "Todos",
+      "starters": "Entradas",
+      "mains": "Platos Principales",
+      "desserts": "Postres"
+    },
+    "items": {
+      "tlacoyos": {
+        "name": "Tlacoyos de Frijol y Nopal",
+        "description": "Masa de maíz azul rellena de frijol negro, nopal asado, queso fresco, crema y salsa verde."
+      },
+      "ceviche": {
+        "name": "Ceviche de Pulpo 'Acapulco'",
+        "description": "Pulpo fresco cocido al punto, bañado en jugo de lima, chile serrano, cilantro, cebolla morada y aguacate."
+      },
+      "esquites": {
+        "name": "Esquites Callejeros",
+        "description": "Elote desgranado, mayonesa, queso cotija, chile en polvo, limón y un toque de epazote."
+      },
+      "quesadillas": {
+        "name": "Quesadillas de Rajas con Queso",
+        "description": "Tortillas recién hechas rellenas de rajas poblanas, queso Oaxaca fundido, epazote y crema."
+      },
+      "cochinita": {
+        "name": "Tacos de Cochinita Inmigrante",
+        "description": "Puerco achiote cocido 12 horas con naranja agria, tortilla azul recién hecha, cebolla encurtida y habanero."
+      },
+      "mole": {
+        "name": "Mole Poblano Tradicional",
+        "description": "28 ingredientes, 6 horas de cocción. Pechuga de pollo bañada en mole negro, arroz rojo y frijoles de olla."
+      },
+      "enchiladas": {
+        "name": "Enchiladas de Olla",
+        "description": "Tortillas bañadas en salsa de chile guajillo, rellenas de queso Oaxaca o tinga de res. Crema, cebolla y queso fresco."
+      },
+      "pescado": {
+        "name": "Pescado a la Talla 'Miami Heat'",
+        "description": "Filete de pargo rojo adobado con chile ancho y guajillo, asado a la lena. Servido con camote y frijoles puercos."
+      },
+      "tres-leches": {
+        "name": "Pastel de Tres Leches 'Miami Noches'",
+        "description": "Bizcocho esponjoso remojado en tres leches, cubierto con merengue de coco y ralladura de lima."
+      },
+      "churros": {
+        "name": "Churros Rellenos de Cajeta",
+        "description": "Churros crujientes rellenos de cajeta de cabra, espolvoreados con canela. Acompanados de chocolate de metate."
+      },
+      "mamey-sorbet": {
+        "name": "Mamey Sorbet con Chile y Lima",
+        "description": "Sorbete de mamey con un toque de chile piquin y lima key. Refrescante y picante."
+      },
+      "flan": {
+        "name": "Flan Mexicano de Cajeta",
+        "description": "Flan cremoso tradicional con caramelo casero y cajeta dulce. El postre que hizo famosa a la abuela Dona Elena."
+      }
+    },
+    "cta_title": "¿Listo para probar?",
+    "cta_subtitle": "Haz tu reserva y disfruta de una experiencia culinaria inolvidable.",
+    "cta_button": "Reservar Mesa"
   },
   "contact": {
     "title": "Reserva tu mesa",
