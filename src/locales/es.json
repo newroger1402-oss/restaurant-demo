@@ -130,7 +130,7 @@
     },
     "hours": {
       "title": "Horarios",
-      "schedule": "Lun: Cerrado | Mar-Jue: 12pm-10pm | Vie: 12pm-12am | Sáb: 11am-12am | Dom: 11am-9pm"
+      "schedule": "Martes-Domingo: 7am | Lunes: Cerrado"
     },
     "faq": {
       "title": "Preguntas Frecuentes",
@@ -148,6 +148,7 @@
     "subtitle": "Auténtica cocina mexicana preparada con amor, tradición y los mejores ingredientes.",
     "cta": "Reservar mesa",
     "more_info": "Ver más",
+    "view_all_gallery": "Ver todos los platillos en la galería ->",
     "entradas": {
       "title": "Entradas",
       "description": "Comienza tu experiencia con nuestras deliciosas entradas preparadas con ingredientes frescos y tradición mexicana."
@@ -398,7 +399,10 @@
       "location": "2340 SW 8th Street, Miami, FL 33135 (Little Havana)",
       "phone": "+1 (305) 555-2390",
       "email": "hola@cieloymaiz.com",
-      "hours": "Lun-Vie: 12pm-10pm\nSáb-Dom: Cerrado",
+      "hours": "Martes-Domingo: 7am\nLunes: Cerrado",
+      "hours_compact": "Martes-Domingo: 7am\nLunes: Cerrado",
+      "hours_card": "Martes-Domingo: 7am\nLunes: Cerrado",
+      "weekend_highlight": "Martes-Domingo: 7am · Lunes: Cerrado",
       "languages": "Español, Inglés"
     },
     "form": {

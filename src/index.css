@@ -134,11 +134,17 @@
   transition: all 0.3s ease;
   height: 100%;
   border: 1px solid var(--color-border-light);
+  cursor: zoom-in;
 }
 
 .gallery-item:hover {
   box-shadow: 0 12px 25px rgba(5, 150, 105, 0.15);
   transform: translateY(-8px);
+}
+
+.gallery-item:focus-visible {
+  outline: 3px solid var(--color-secondary);
+  outline-offset: 2px;
 }
 
 .gallery-item-image {
@@ -237,4 +243,92 @@
   font-weight: 900;
   color: var(--color-accent);
   font-family: 'Playfair Display', serif;
+}
+
+/* Gallery Lightbox */
+.gallery-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(6, 78, 59, 0.82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gallery-lightbox-dialog {
+  position: relative;
+  width: min(960px, 100%);
+  max-height: 92vh;
+  background: var(--color-background);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.35);
+}
+
+.gallery-lightbox-image {
+  width: 100%;
+  max-height: 72vh;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-lightbox-caption {
+  padding: 16px 18px 20px;
+}
+
+.gallery-lightbox-caption h3 {
+  margin: 0 0 8px;
+  color: var(--color-bg-dark);
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.gallery-lightbox-caption p {
+  margin: 0;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.gallery-lightbox-caption .gallery-lightbox-price {
+  margin: 0 0 10px;
+  color: var(--color-accent);
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-family: 'Playfair Display', serif;
+}
+
+.gallery-lightbox-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-bg-dark);
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.gallery-lightbox-close:hover {
+  background: var(--color-background);
+  transform: scale(1.04);
+}
+
+@media (max-width: 640px) {
+  .gallery-lightbox {
+    padding: 12px;
+  }
+
+  .gallery-lightbox-caption h3 {
+    font-size: 1.05rem;
+  }
+
+  .gallery-lightbox-caption p {
+    font-size: 0.92rem;
+  }
 }

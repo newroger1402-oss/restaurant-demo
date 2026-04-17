@@ -30,6 +30,15 @@ export const ServicesSection: React.FC = () => {
           <p className="text-lg text-(--color-text-muted) max-w-2xl mx-auto">
             {t('services.subtitle')}
           </p>
+          <Link
+            to="/gallery"
+            className="mt-5 inline-flex items-center gap-2 text-(--color-primary) hover:text-(--color-primary-hover) font-semibold transition-colors"
+          >
+            {t('services.view_all_gallery')}
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
         </div>
 
         {/* Lista de servicios alternados */}

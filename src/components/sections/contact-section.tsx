@@ -4,11 +4,36 @@ import { useSearchParams } from 'react-router-dom';
 import { CONTACT_INFO, APP_SERVICES, getServiceOptions } from '@/config/constants';
 import { TestimonialsSection } from './testimonials-section';
 
-const MapWidget: React.FC = () => (
-  <div className="w-full h-full min-h-75 bg-(--color-bg-light) flex items-center justify-center text-(--color-text-muted)">
-    Placeholder Map Widget
-  </div>
-);
+const MAP_QUERY = '2340 SW 8th Street, Miami, FL 33135';
+
+const MapWidget: React.FC = () => {
+  const { t } = useTranslation();
+
+  return (
+    <div className="relative w-full h-full min-h-75 bg-(--color-bg-light)">
+      <iframe
+        title={t('contact.info.location_title')}
+        src={`https://www.google.com/maps?q=${encodeURIComponent(MAP_QUERY)}&output=embed`}
+        className="h-full w-full border-0"
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+
+      <div className="absolute top-3 left-3 max-w-[78%] rounded-xl bg-white/90 px-3 py-2 shadow-md backdrop-blur-xs border border-(--color-primary)/20">
+        <p className="text-[11px] font-semibold uppercase tracking-wide text-(--color-primary)">{t('contact.info.hours_title')}</p>
+        <p className="mt-0.5 text-xs leading-snug text-(--color-bg-dark)">{t('contact.info.weekend_highlight')}</p>
+        <a
+          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(MAP_QUERY)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-1 inline-flex text-[11px] font-semibold text-(--color-primary) hover:text-(--color-primary-hover)"
+        >
+          {t('contact.info.location_title')}
+        </a>
+      </div>
+    </div>
+  );
+};
 
 export const ContactSection: React.FC<{ isHomePage?: boolean }> = ({ isHomePage = false }) => {
   const { t } = useTranslation();
@@ -242,7 +267,7 @@ ${formData.message}
                     </div>
                     <div>
                       <p className="text-sm font-medium text-(--color-text-light)/60">{t('contact.info.hours_title')}</p>
-                      <p className="text-white mt-0.5 whitespace-pre-line">{CONTACT_INFO.HOURS}</p>
+                      <p className="text-white/95 mt-0.5 text-xs leading-relaxed whitespace-pre-line">{t('contact.info.hours_compact')}</p>
                     </div>
                   </div>
                 </div>
@@ -352,7 +377,7 @@ ${formData.message}
               </svg>
             </div>
             <h3 className="font-bold text-(--color-bg-dark) text-sm">{t('contact.info.hours_title')}</h3>
-            <p className="text-(--color-text-muted) text-sm whitespace-pre-line">{CONTACT_INFO.HOURS}</p>
+            <p className="mt-2 mx-auto w-fit text-left text-(--color-text-muted) text-xs leading-6 whitespace-pre-line">{t('contact.info.hours_card')}</p>
           </div>
         </div>
 
