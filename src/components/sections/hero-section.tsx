@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom';
 
 export const HeroSection: React.FC = () => {
   const { t } = useTranslation();
+  const heroImage = `${import.meta.env.BASE_URL}assets/images/hero.jpg`;
 
   return (
     <section className="relative w-full min-h-screen overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/assets/images/hero.jpg"
+          src={heroImage}
           alt="Background"
           className="w-full h-full object-cover"
         />

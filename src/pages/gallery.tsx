@@ -12,75 +12,76 @@ interface MenuItem {
 
 const Gallery: React.FC = () => {
   const { t } = useTranslation();
+  const imageBase = `${import.meta.env.BASE_URL}assets/images/platos`;
 
   const MENU_ITEMS: MenuItem[] = [
     {
       id: 'tlacoyos',
       category: 'starters',
-      image: '/assets/images/platos/tlacoyos.jpg',
-      imageSm: '/assets/images/platos/tlacoyos-sm.jpg',
+      image: `${imageBase}/tlacoyos.jpg`,
+      imageSm: `${imageBase}/tlacoyos-sm.jpg`,
     },
     {
       id: 'ceviche',
       category: 'starters',
-      image: '/assets/images/platos/ceviche.jpg',
-      imageSm: '/assets/images/platos/ceviche-sm.jpg',
+      image: `${imageBase}/ceviche.jpg`,
+      imageSm: `${imageBase}/ceviche-sm.jpg`,
     },
     {
       id: 'esquites',
       category: 'starters',
-      image: '/assets/images/platos/esquites.jpg',
-      imageSm: '/assets/images/platos/esquites-sm.jpg',
+      image: `${imageBase}/esquites.jpg`,
+      imageSm: `${imageBase}/esquites-sm.jpg`,
     },
     {
       id: 'quesadillas',
       category: 'starters',
-      image: '/assets/images/platos/quesadillas.jpg',
-      imageSm: '/assets/images/platos/quesadillas-sm.jpg',
+      image: `${imageBase}/quesadillas.jpg`,
+      imageSm: `${imageBase}/quesadillas-sm.jpg`,
     },
     {
       id: 'cochinita',
       category: 'mains',
-      image: '/assets/images/platos/cochinita.jpg',
-      imageSm: '/assets/images/platos/cochinita-sm.jpg',
+      image: `${imageBase}/cochinita.jpg`,
+      imageSm: `${imageBase}/cochinita-sm.jpg`,
     },
     {
       id: 'mole',
       category: 'mains',
-      image: '/assets/images/platos/mole.jpg',
-      imageSm: '/assets/images/platos/mole-sm.jpg',
+      image: `${imageBase}/mole.jpg`,
+      imageSm: `${imageBase}/mole-sm.jpg`,
     },
     {
       id: 'enchiladas',
       category: 'mains',
-      image: '/assets/images/platos/enchiladas.jpg',
-      imageSm: '/assets/images/platos/enchiladas-sm.jpg',
+      image: `${imageBase}/enchiladas.jpg`,
+      imageSm: `${imageBase}/enchiladas-sm.jpg`,
     },
     {
       id: 'pescado',
       category: 'mains',
-      image: '/assets/images/platos/pescado.jpg',
-      imageSm: '/assets/images/platos/pescado-sm.jpg',
+      image: `${imageBase}/pescado.jpg`,
+      imageSm: `${imageBase}/pescado-sm.jpg`,
     },
     {
       id: 'tres-leches',
       category: 'desserts',
-      image: '/assets/images/platos/tres-leches.jpg',
+      image: `${imageBase}/tres-leches.jpg`,
     },
     {
       id: 'churros',
       category: 'desserts',
-      image: '/assets/images/platos/churros.jpg',
+      image: `${imageBase}/churros.jpg`,
     },
     {
       id: 'mamey-sorbet',
       category: 'desserts',
-      image: '/assets/images/platos/mamey-sorbet.jpg',
+      image: `${imageBase}/mamey-sorbet.jpg`,
     },
     {
       id: 'flan',
       category: 'desserts',
-      image: '/assets/images/platos/flan.jpg',
+      image: `${imageBase}/flan.jpg`,
     },
   ];
 
