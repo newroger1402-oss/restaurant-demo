@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 
 import LogoMarketing from "@/assets/images/logo-marketing.jpeg"
@@ -6,23 +6,11 @@ import { BUSINESS_INFO, CONTACT_INFO, getServiceLinks, getNavLinks } from "@/con
 
 export const Footer: React.FC = () => {
   const { t } = useTranslation()
-  const navigate = useNavigate()
   const { PHONE_DISPLAY, PHONE_CALL, EMAIL, SOCIAL, WHATSAPP_URL, AGENCY_URL, AGENCY_NAME } = CONTACT_INFO;
 
   // Pre-computed link arrays
   const navLinks = getNavLinks(t);
   const serviceLinks = getServiceLinks(t);
-
-  const handleContactClick = (e: React.MouseEvent) => {
-    e.preventDefault()
-    navigate("/contact")
-    setTimeout(() => {
-      const el = document.getElementById("contact")
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "start" })
-      }
-    }, 100)
-  }
 
   return (
     <footer className="bg-(--color-bg-dark) text-white">
@@ -104,7 +92,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 sm:space-y-3">
               {serviceLinks.map(service => (
                 <li key={service.key}>
-                  <Link to="/services" onClick={handleContactClick} className="text-white/70 hover:text-white transition-colors text-sm">
+                  <Link to={service.path} className="text-white/70 hover:text-white transition-colors text-sm">
                     {service.label}
                   </Link>
                 </li>

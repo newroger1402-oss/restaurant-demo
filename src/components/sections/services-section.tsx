@@ -47,8 +47,12 @@ export const ServicesSection: React.FC = () => {
                   <div className="relative overflow-hidden rounded-2xl shadow-lg group">
                     <img
                       src={service.image}
+                      srcSet={`${service.image.replace('.jpg', '-sm.jpg')} 720w, ${service.image} 1280w`}
+                      sizes="(max-width: 768px) 100vw, 45vw"
                       alt={t(`services.${service.key}.title`)}
-                      className="w-full h-60 sm:h-68 md:h-76 lg:h-88 object-cover object-bottom transition-transform duration-700 group-hover:scale-105"
+                      loading="lazy"
+                      decoding="async"
+                      className="w-full h-[16rem] sm:h-[18rem] md:h-[20rem] lg:h-[22rem] object-cover object-center transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-(--color-bg-dark)/20 to-transparent" />
                   </div>

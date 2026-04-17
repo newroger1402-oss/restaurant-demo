@@ -23,7 +23,13 @@
     "cta": "Reservar mesa",
     "language": {
       "en": "EN",
-      "es": "ES"
+      "es": "ES",
+      "switch_to_en": "Cambiar idioma a inglés",
+      "switch_to_es": "Cambiar idioma a español"
+    },
+    "menu": {
+      "open": "Abrir menú",
+      "close": "Cerrar menú"
     }
   },
   "business": {
@@ -64,16 +70,43 @@
   "testimonials": {
     "badge": "Testimonios",
     "title": "Comensales Satisfechos",
-    "subtitle": "Descubre por qué cientos de comensales disfrutan nuestra cocina cada día."
+    "subtitle": "Descubre por qué cientos de comensales disfrutan nuestra cocina cada día.",
+    "heading": "Lo que dicen nuestros comensales",
+    "widget_title": "Reseñas de clientes",
+    "items": {
+      "1": {
+        "name": "Ana G.",
+        "role": "Mexicana, residente en Miami por 8 años",
+        "text": "El mole más auténtico que he probado fuera de Puebla. Lloré de felicidad."
+      },
+      "2": {
+        "name": "Michael T.",
+        "role": "Foodie local, crítico de @miamieats",
+        "text": "Finalmente un lugar en Miami que entiende el maíz. Los tacos de cochinita son una experiencia religiosa."
+      },
+      "3": {
+        "name": "Laura y Carlos",
+        "role": "Pareja mexicano-estadounidense",
+        "text": "Cada domingo vamos por las enchiladas y una michelada. Nos recuerda a casa."
+      }
+    }
   },
   "floating": {
     "facebook": "Facebook",
     "instagram": "Instagram",
+    "google": "Google",
     "whatsapp": "WhatsApp",
     "tiktok": "TikTok"
   },
   "home": {
     "hero": {
+      "badge": "Cocina Mexicana Auténtica",
+      "location": "Little Havana, Miami",
+      "location_short": "Little Havana",
+      "location_label": "Ubicación",
+      "happy_diners": "comensales felices",
+      "since": "Desde",
+      "rating_source": "Google",
       "title": "Donde el sol de Miami abraza la tierra mexicana",
       "subtitle": "Auténtica cocina mexicana hecha por manos mexicanas. Maíz nixtamalizado a mano, moles tradicionales y sabores que cruzan fronteras sin perder el alma.",
       "cta_primary": "Reservar mesa",

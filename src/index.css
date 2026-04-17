@@ -10,6 +10,7 @@
     --color-accent-hover: #B91C1C;    /* Rojo oscuro */
     --color-background: #FFFFFF;        /* Blanco */
     --color-bg-light: #F0FDF4;          /* Verde muy claro */
+    --color-bg-surface: #14532D;        /* Superficie oscura */
     --color-bg-dark: #064E3B;           /* Verde oscuro fondos */
     --color-text-dark: #064E3B;         /* Verde oscuro texto */
     --color-text-light: #FFFFFF;        /* Blanco para texto */
@@ -143,14 +144,27 @@
 .gallery-item-image {
   position: relative;
   overflow: hidden;
-  height: 220px;
+  height: 200px;
   background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+}
+
+@media (min-width: 768px) {
+  .gallery-item-image {
+    height: 220px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .gallery-item-image {
+    height: 240px;
+  }
 }
 
 .gallery-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   transition: transform 0.4s ease;
 }
 

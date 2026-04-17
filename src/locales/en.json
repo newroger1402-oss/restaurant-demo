@@ -23,7 +23,13 @@
     "cta": "Book a Table",
     "language": {
       "en": "EN",
-      "es": "ES"
+      "es": "ES",
+      "switch_to_en": "Switch language to English",
+      "switch_to_es": "Switch language to Spanish"
+    },
+    "menu": {
+      "open": "Open menu",
+      "close": "Close menu"
     }
   },
   "business": {
@@ -63,16 +69,43 @@
   "testimonials": {
     "badge": "Testimonials",
     "title": "Happy Diners",
-    "subtitle": "Discover why hundreds of diners enjoy our cuisine every day."
+    "subtitle": "Discover why hundreds of diners enjoy our cuisine every day.",
+    "heading": "What Our Diners Say",
+    "widget_title": "Customer Reviews",
+    "items": {
+      "1": {
+        "name": "Ana G.",
+        "role": "Mexican, living in Miami for 8 years",
+        "text": "The most authentic mole I've tried outside Puebla. I cried with happiness."
+      },
+      "2": {
+        "name": "Michael T.",
+        "role": "Local foodie, @miamieats critic",
+        "text": "Finally a place in Miami that understands corn. The cochinita tacos are a religious experience."
+      },
+      "3": {
+        "name": "Laura and Carlos",
+        "role": "Mexican-American couple",
+        "text": "Every Sunday we come for enchiladas and a michelada. It reminds us of home."
+      }
+    }
   },
   "floating": {
     "facebook": "Facebook",
     "instagram": "Instagram",
+    "google": "Google",
     "whatsapp": "WhatsApp",
     "tiktok": "TikTok"
   },
   "home": {
     "hero": {
+      "badge": "Authentic Mexican Cuisine",
+      "location": "Little Havana, Miami",
+      "location_short": "Little Havana",
+      "location_label": "Location",
+      "happy_diners": "happy diners",
+      "since": "Since",
+      "rating_source": "Google",
       "title": "Where Miami's sun embraces Mexican earth",
       "subtitle": "Authentic Mexican cuisine made by Mexican hands. Hand-nixtamalized corn, traditional moles, and flavors that cross borders without losing their soul.",
       "cta_primary": "Book a Table",

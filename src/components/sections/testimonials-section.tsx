@@ -1,32 +1,32 @@
 import { useTranslation } from 'react-i18next';
 import { REVIEWS_WIDGET_ID } from '../../config/constants';
 
-// Real testimonials from Cielo y Maíz customers
-const TESTIMONIALS = [
-  {
-    id: 1,
-    name: "Ana G.",
-    role: "Mexicana, residente en Miami por 8 años",
-    text: "El mole más auténtico que he probado fuera de Puebla. Lloré de felicidad.",
-    initials: "AG"
-  },
-  {
-    id: 2,
-    name: "Michael T.",
-    role: "Foodie local, crítico de @miamieats",
-    text: "Finalmente un lugar en Miami que entiende el maíz. Los tacos de cochinita son una experiencia religiosa.",
-    initials: "MT"
-  },
-  {
-    id: 3,
-    name: "Laura y Carlos",
-    role: "Pareja mexicano-estadounidense",
-    text: "Cada domingo vamos por las enchiladas y una michelada. Nos recuerda a casa.",
-    initials: "LC"
-  }
-];
+const ReviewsWidget: React.FC<{ t: (key: string) => string }> = ({ t }) => {
+  const testimonials = [
+    {
+      id: 1,
+      name: t('testimonials.items.1.name'),
+      role: t('testimonials.items.1.role'),
+      text: t('testimonials.items.1.text'),
+      initials: 'AG',
+    },
+    {
+      id: 2,
+      name: t('testimonials.items.2.name'),
+      role: t('testimonials.items.2.role'),
+      text: t('testimonials.items.2.text'),
+      initials: 'MT',
+    },
+    {
+      id: 3,
+      name: t('testimonials.items.3.name'),
+      role: t('testimonials.items.3.role'),
+      text: t('testimonials.items.3.text'),
+      initials: 'LC',
+    },
+  ];
 
-const ReviewsWidget: React.FC = () => (
+  return (
   <div className="rounded-2xl overflow-hidden h-full min-h-100">
     {REVIEWS_WIDGET_ID ? (
       <iframe
@@ -35,13 +35,13 @@ const ReviewsWidget: React.FC = () => (
         frameBorder='0'
         scrolling='auto'
         style={{ minWidth: '100%', width: '100%', height: '100%' }}
-        title="Customer Reviews"
+        title={t('testimonials.widget_title')}
       />
     ) : (
       <div className="flex flex-col items-center justify-center p-8 sm:p-12 h-full min-h-100 bg-white border border-(--color-primary)/10 text-(--color-bg-dark) shadow-sm rounded-2xl">
-        <h3 className="text-2xl sm:text-3xl font-bold mb-10 text-center">Lo que dicen nuestros comensales</h3>
+        <h3 className="text-2xl sm:text-3xl font-bold mb-10 text-center">{t('testimonials.heading')}</h3>
         <div className="flex gap-6 w-full overflow-x-auto pb-6 snap-x max-w-full no-scrollbar px-4">
-          {TESTIMONIALS.map((testimonial) => (
+          {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="snap-center min-w-75 sm:min-w-85 flex-1 p-8 rounded-2xl bg-(--color-bg-light) border border-(--color-primary)/10 shrink-0 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
               <div>
                 <div className="flex text-(--color-primary) text-lg mb-4">★★★★★</div>
@@ -65,6 +65,7 @@ const ReviewsWidget: React.FC = () => (
     )}
   </div>
 );
+};
 
 export const TestimonialsSection: React.FC<{ showTitle?: boolean; fullWidth?: boolean }> = ({ showTitle = true, fullWidth = false }) => {
   const { t } = useTranslation();
@@ -79,18 +80,18 @@ export const TestimonialsSection: React.FC<{ showTitle?: boolean; fullWidth?: bo
         {showTitle && (
           <div className="text-center mb-16">
             <p className="text-(--color-primary) font-semibold mb-3 uppercase tracking-wider text-sm">
-              {t('testimonials.badge') || 'Testimonios'}
+              {t('testimonials.badge')}
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-(--color-bg-dark) mb-4">
-              {t('testimonials.title') || 'Clientes Satisfechos'}
+              {t('testimonials.title')}
             </h2>
             <p className="text-lg text-(--color-text-muted) max-w-2xl mx-auto">
-              {t('testimonials.subtitle') || 'Descubre por qué cientos de clientes confían en nuestros servicios cada día.'}
+              {t('testimonials.subtitle')}
             </p>
           </div>
         )}
 
-        <ReviewsWidget />
+        <ReviewsWidget t={t} />
       </div>
     </section>
   );

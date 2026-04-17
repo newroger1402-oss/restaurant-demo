@@ -79,6 +79,7 @@ export const Header: React.FC = () => {
           <button
             onClick={toggleLanguage}
             className="text-sm font-semibold text-(--color-bg-dark) hover:text-(--color-primary) transition-colors px-3 py-1 rounded-lg hover:bg-(--color-primary)/10"
+            aria-label={i18n.language === 'es' ? t('header.language.switch_to_en') : t('header.language.switch_to_es')}
           >
             {i18n.language === 'es' ? 'EN' : 'ES'}
           </button>
@@ -93,6 +94,9 @@ export const Header: React.FC = () => {
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="lg:hidden text-(--color-bg-dark) text-2xl focus:outline-none p-2 rounded-lg hover:bg-(--color-primary)/10 transition-colors"
+            aria-label={isMenuOpen ? t('header.menu.close') : t('header.menu.open')}
+            aria-expanded={isMenuOpen}
+            aria-controls="mobile-navigation"
           >
             ☰
           </button>
@@ -100,7 +104,7 @@ export const Header: React.FC = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="lg:hidden bg-[rgb(229,229,223)] border-t border-(--color-primary)/20">
+        <div id="mobile-navigation" className="lg:hidden bg-[rgb(229,229,223)] border-t border-(--color-primary)/20">
           <nav className="flex flex-col space-y-1 px-4 py-4">
             {menuItems.map((item) => (
               <Link

@@ -17,7 +17,7 @@ export const BUSINESS_INFO = {
   /** Full business description for SEO and footer */
   DESCRIPTION: 'Auténtica cocina mexicana hecha por manos mexicanas en Miami. Maíz nixtamalizado a mano, chiles de Oaxaca y recetas que cruzan fronteras sin perder el alma.',
   /** Business logo path */
-  LOGO: '/assets/images/logo.svg',
+  LOGO: '/assets/images/placeholder-logo.jpg',
   /** Hero image for SEO and meta tags */
   HERO_IMAGE: '/assets/images/hero.jpg',
   /** Website URL (no trailing slash) */

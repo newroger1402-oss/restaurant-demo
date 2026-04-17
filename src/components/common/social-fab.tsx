@@ -34,7 +34,7 @@ export const SocialFab: React.FC = () => {
             rel="noopener noreferrer"
             className="group w-12 h-12 md:w-14 md:h-14 rounded-full text-white flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300"
             style={{ background: "linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888)" }}
-            aria-label="Instagram"
+            aria-label={t('floating.instagram')}
             title={t('floating.instagram')}
           >
             <svg className="w-6 h-6 md:w-7 md:h-7" fill="currentColor" viewBox="0 0 24 24">
@@ -50,8 +50,8 @@ export const SocialFab: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="group w-12 h-12 md:w-14 md:h-14 rounded-full bg-[#1877F2] text-white flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300"
-            aria-label="Facebook"
-            title={t('floating.facebook') || 'Facebook'}
+            aria-label={t('floating.facebook')}
+            title={t('floating.facebook')}
           >
             <svg className="w-6 h-6 md:w-7 md:h-7" fill="currentColor" viewBox="0 0 24 24">
               <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.269h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z" />
@@ -66,8 +66,8 @@ export const SocialFab: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="group w-12 h-12 md:w-14 md:h-14 rounded-full bg-white flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 border border-gray-100 p-2.5 md:p-3"
-            aria-label="Google"
-            title="Google"
+            aria-label={t('floating.google')}
+            title={t('floating.google')}
           >
             <img 
               src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" 
@@ -84,7 +84,7 @@ export const SocialFab: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="group w-12 h-12 md:w-14 md:h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300"
-            aria-label="WhatsApp"
+            aria-label={t('floating.whatsapp')}
             title={t('floating.whatsapp')}
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -100,6 +100,7 @@ export const SocialFab: React.FC = () => {
           onClick={scrollToTop}
           className="fixed bottom-6 right-6 w-14 h-14 bg-(--color-primary) hover:bg-(--color-primary-hover) text-white rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 z-50 transform hover:-translate-y-1"
           title={t('floating.scroll_top')}
+          aria-label={t('floating.scroll_top')}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path

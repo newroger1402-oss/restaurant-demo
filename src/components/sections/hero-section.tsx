@@ -2,15 +2,14 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 export const HeroSection: React.FC = () => {
-  const { t, i18n } = useTranslation();
-  const isSpanish = i18n.language === 'es' || i18n.language.startsWith('es');
+  const { t } = useTranslation();
 
   return (
     <section className="relative w-full min-h-screen overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/src/assets/images/placeholder-hero.jpg"
+          src="/assets/images/hero.jpg"
           alt="Background"
           className="w-full h-full object-cover"
         />
@@ -24,12 +23,12 @@ export const HeroSection: React.FC = () => {
           <div className="inline-flex items-center gap-2 mb-6 bg-white/10 backdrop-blur-sm border border-white/20 px-4 py-2 rounded-full">
             <span className="w-2 h-2 bg-(--color-primary) rounded-full animate-pulse"></span>
             <span className="text-(--color-text-light) text-xs font-semibold uppercase tracking-wider">
-              {isSpanish ? 'Cocina Mexicana Auténtica' : 'Authentic Mexican Cuisine'}
+              {t('home.hero.badge')}
             </span>
           </div>
 
           <p className="text-(--color-secondary) font-bold mb-3 tracking-[0.15em] uppercase text-sm font-body">
-            {isSpanish ? 'Little Havana, Miami' : 'Little Havana, Miami'}
+            {t('home.hero.location')}
           </p>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-(--color-text-light) mb-6 leading-tight font-body">
@@ -66,7 +65,7 @@ export const HeroSection: React.FC = () => {
               <div className="w-8 h-8 rounded-full bg-(--color-accent) border-2 border-(--color-bg-dark) flex items-center justify-center text-[10px] text-(--color-text-light) font-bold">LC</div>
             </div>
             <p className="text-sm font-medium font-body">
-              <span className="text-(--color-text-light) font-bold">+500</span> {isSpanish ? 'comensales felices' : 'happy diners'}
+              <span className="text-(--color-text-light) font-bold">+500</span> {t('home.hero.happy_diners')}
             </p>
           </div>
         </div>
@@ -79,7 +78,7 @@ export const HeroSection: React.FC = () => {
                 <span className="text-(--color-primary) font-bold text-xl">★</span>
               </div>
               <div>
-                <p className="text-xs text-(--color-text-light)/60 uppercase">Google</p>
+                <p className="text-xs text-(--color-text-light)/60 uppercase">{t('home.hero.rating_source')}</p>
                 <p className="text-(--color-text-light) font-bold text-lg">4.8/5</p>
               </div>
             </div>
@@ -93,7 +92,7 @@ export const HeroSection: React.FC = () => {
                 </svg>
               </div>
               <div>
-                <p className="text-xs text-(--color-text-light)/60 uppercase">{isSpanish ? 'Desde' : 'Since'}</p>
+                <p className="text-xs text-(--color-text-light)/60 uppercase">{t('home.hero.since')}</p>
                 <p className="text-(--color-text-light) font-bold text-lg">2019</p>
               </div>
             </div>
@@ -108,8 +107,8 @@ export const HeroSection: React.FC = () => {
                 </svg>
               </div>
               <div>
-                <p className="text-xs text-(--color-text-light)/60 uppercase">{isSpanish ? 'Ubicación' : 'Location'}</p>
-                <p className="text-(--color-text-light) font-bold text-lg">Little Havana</p>
+                <p className="text-xs text-(--color-text-light)/60 uppercase">{t('home.hero.location_label')}</p>
+                <p className="text-(--color-text-light) font-bold text-lg">{t('home.hero.location_short')}</p>
               </div>
             </div>
           </div>

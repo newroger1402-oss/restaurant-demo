@@ -22,7 +22,8 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   const fullTitle = SEO_DEFAULTS.TITLE_TEMPLATE(title);
 
   // Full canonical URL
-  const fullUrl = `${BUSINESS_INFO.URL}${pathname}`;
+  const hashPath = pathname === '/' ? '' : pathname;
+  const fullUrl = `${BUSINESS_INFO.URL}/#${hashPath}`;
 
   return (
     <Helmet>
