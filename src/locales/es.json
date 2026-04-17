@@ -1,0 +1,313 @@
+{
+  "common": {
+    "home": "Inicio",
+    "services": "Menú",
+    "about": "Nosotros",
+    "faq": "Preguntas Frecuentes",
+    "contact": "Reservas",
+    "menu": "Menú",
+    "reservations": "Reservas",
+    "order": "Pedir"
+  },
+  "header": {
+    "logo": "Cielo y Maíz",
+    "nav": {
+      "home": "Inicio",
+      "services": "Menú",
+      "about": "Nosotros",
+      "contact": "Reservas",
+      "faq": "Preguntas Frecuentes"
+    },
+    "cta": "Reservar mesa",
+    "language": {
+      "en": "EN",
+      "es": "ES"
+    }
+  },
+  "footer": {
+    "about": "Auténtica cocina mexicana hecha por manos mexicanas en Miami. Maíz nixtamalizado a mano, chiles de Oaxaca y recetas que cruzan fronteras sin perder el alma.",
+    "quick_links": {
+      "title": "Enlaces Rápidos",
+      "home": "Inicio",
+      "services": "Menú",
+      "about": "Nosotros",
+      "contact": "Reservas",
+      "faq": "Preguntas Frecuentes"
+    },
+    "services": {
+      "title": "Menú",
+      "service1": "Entradas",
+      "service2": "Platos Principales",
+      "service3": "Postres"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio"
+    },
+    "contact": {
+      "title": "Contacto",
+      "phone": "+1 (305) 555-2390",
+      "email": "hola@cieloymaiz.com"
+    },
+    "crescendo": "Impulsado por Crescendo Marketing",
+    "copyright": "© {{year}} Cielo y Maíz. Todos los derechos reservados.",
+    "copyright_rights": "Todos los derechos reservados."
+  },
+  "testimonials": {
+    "badge": "Testimonios",
+    "title": "Comensales Satisfechos",
+    "subtitle": "Descubre por qué cientos de comensales disfrutan nuestra cocina cada día."
+  },
+  "floating": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "tiktok": "TikTok"
+  },
+  "home": {
+    "hero": {
+      "title": "Donde el sol de Miami abraza la tierra mexicana",
+      "subtitle": "Auténtica cocina mexicana hecha por manos mexicanas. Maíz nixtamalizado a mano, moles tradicionales y sabores que cruzan fronteras sin perder el alma.",
+      "cta_primary": "Reservar mesa",
+      "cta_secondary": "Ver menú"
+    },
+    "features": {
+      "nixtamal": "Maíz nixtamalizado a mano",
+      "abuela": "Recetas de la abuela Doña Elena",
+      "familia": "Ambiente familiar y acogedor"
+    },
+    "services": {
+      "title": "Nuestro Menú",
+      "subtitle": "Descubre nuestras especialidades preparadas con ingredientes frescos y tradición mexicana.",
+      "cta": "Ver menú completo"
+    },
+    "delivery": {
+      "title": "También pedimos a domicilio",
+      "ubereats": "Uber Eats",
+      "doordash": "DoorDash",
+      "pickup": "Pickup por WhatsApp"
+    },
+    "hours": {
+      "title": "Horarios",
+      "schedule": "Lun: Cerrado | Mar-Jue: 12pm-10pm | Vie: 12pm-12am | Sáb: 11am-12am | Dom: 11am-9pm"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Todo lo que necesitas saber sobre tu visita a Cielo y Maíz.",
+      "cta": "Ver todas las preguntas"
+    },
+    "contact": {
+      "title": "Reserva tu mesa",
+      "subtitle": "Haz tu reserva y disfruta de una experiencia gastronómica inolvidable.",
+      "cta": "Reservar ahora"
+    }
+  },
+  "services": {
+    "title": "Nuestro Menú",
+    "subtitle": "Auténtica cocina mexicana preparada con amor, tradición y los mejores ingredientes.",
+    "cta": "Reservar mesa",
+    "entradas": {
+      "title": "Entradas",
+      "description": "Comienza tu experiencia con nuestras deliciosas entradas preparadas con ingredientes frescos y tradición mexicana."
+    },
+    "principales": {
+      "title": "Platos Principales",
+      "description": "El corazón de nuestra cocina. Recetas tradicionales con el auténtico sabor de México en cada bocado."
+    },
+    "postres": {
+      "title": "Postres",
+      "description": "Termina tu comida con nuestras irresistibles opciones dulces, elaboradas artesanalmente con recetas de la abuela."
+    },
+    "bebidas": {
+      "title": "Bebidas",
+      "description": "Refrescantes aguas frescas, refrescos mexicanos, café de olla y nuestras especialidades de mixología."
+    },
+    "especialidades": {
+      "title": "Especialidades de la Casa",
+      "description": "Nuestras creaciones únicas que combinan tradición mexicana con el espíritu de Miami."
+    },
+    "header": {
+      "title": "Nuestro Menú",
+      "subtitle": "Explora todas nuestras opciones gastronómicas preparadas con dedicación y tradición mexicana."
+    },
+    "categories": {
+      "entradas": "Entradas",
+      "principales": "Platos Principales",
+      "postres": "Postres",
+      "bebidas": "Bebidas",
+      "especialidades": "Especialidades de la Casa"
+    },
+    "menu_items": {
+      "tlacoyos": {
+        "name": "Tlacoyos de Frijol y Nopal",
+        "description": "Masa de maíz azul rellena de frijol negro, nopal asado, queso fresco, crema y salsa verde",
+        "price": "$9.50"
+      },
+      "ceviche": {
+        "name": "Ceviche de Pulpo 'Acapulco'",
+        "description": "Pulpo fresco cocido al punto, bañado en jugo de lima, chile serrano, cilantro, cebolla morada y aguacate",
+        "price": "$14.00"
+      },
+      "esquites": {
+        "name": "Esquites Callejeros",
+        "description": "Elote desgranado, mayonesa, queso cotija, chile en polvo, limón y un toque de epazote",
+        "price": "$7.50"
+      },
+      "cochinita": {
+        "name": "Tacos de Cochinita Inmigrante",
+        "description": "Puerco achiote cocido 12 horas con naranja agria, tortilla azul recién hecha, cebolla encurtida y habanero",
+        "price": "$16.00 (3 tacos)"
+      },
+      "mole": {
+        "name": "Mole Poblano Tradicional",
+        "description": "28 ingredientes, 6 horas de cocción. Pechuga de pollo bañada en mole negro, arroz rojo y frijoles de olla",
+        "price": "$19.50"
+      },
+      "enchiladas": {
+        "name": "Enchiladas de Olla",
+        "description": "Tortillas bañadas en salsa de chile guajillo, rellenas de queso Oaxaca o tinga de res. Crema, cebolla y queso fresco",
+        "price": "$15.00"
+      },
+      "pescado": {
+        "name": "Pescado a la Talla 'Miami Heat'",
+        "description": "Filete de pargo rojo adobado con chile ancho y guajillo, asado a la leña. Servido con camote y frijoles puercos",
+        "price": "$24.00"
+      },
+      "huarache": {
+        "name": "Huarache de Carnitas",
+        "description": "Masa alargada y gruesa, cubierta con carnitas de cerdo, frijoles, lechuga, crema, queso y salsa roja",
+        "price": "$17.00"
+      },
+      "tresleches": {
+        "name": "Pastel de Tres Leches 'Miami Noches'",
+        "description": "Bizcocho esponjoso remojado en tres leches, cubierto con merengue de coco y ralladura de lima",
+        "price": "$8.00"
+      },
+      "churros": {
+        "name": "Churros Rellenos de Cajeta",
+        "description": "Churros crujientes rellenos de cajeta de cabra, espolvoreados con canela. Acompañados de chocolate de metate",
+        "price": "$7.50"
+      },
+      "mamey": {
+        "name": "Mamey Sorbet con Chile y Lima",
+        "description": "Sorbete de mamey con un toque de chile piquín y lima key. Refrescante y picante",
+        "price": "$6.00"
+      },
+      "aguas": {
+        "name": "Aguas Frescas",
+        "description": "Jamaica, Horchata, o Limón con chía",
+        "price": "$4.50"
+      },
+      "refrescos": {
+        "name": "Refrescos Mexicanos",
+        "description": "Jarritos, Sidral Mundet, o Coca-Cola de vidrio",
+        "price": "$3.50"
+      },
+      "cafe": {
+        "name": "Café de Olla",
+        "description": "Café tradicional con canela y piloncillo",
+        "price": "$4.00"
+      },
+      "margarita": {
+        "name": "Margarita 'La Despedida'",
+        "description": "Tequila reposado, mezcal, lima key, jamaica, sal con chile",
+        "price": "$13.00"
+      },
+      "paloma": {
+        "name": "Paloma Mezcalina",
+        "description": "Mezcal, toronja, soda de pomelo, sal de gusano",
+        "price": "$12.00"
+      },
+      "michelada": {
+        "name": "Michelada 'Cielo y Maíz'",
+        "description": "Cerveza artesanal local, clamato, salsas secretas, chile en polvo, camarón al mojo",
+        "price": "$11.00"
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre tu visita a Cielo y Maíz.",
+    "items": [
+      {
+        "question": "¿Tienen opciones vegetarianas o veganas?",
+        "answer": "Sí, tenemos tlacoyos, enchiladas vegetarianas (con hongos o calabaza), y podemos adaptar varios platillos. Pregunta a tu mesero."
+      },
+      {
+        "question": "¿Hacen delivery?",
+        "answer": "Sí, a través de Uber Eats y DoorDash. También puedes pedir directo por WhatsApp para recoger en 20 min."
+      },
+      {
+        "question": "¿Aceptan tarjetas de crédito?",
+        "answer": "Sí, todas las tarjetas, Apple Pay y efectivo. No aceptamos cheques."
+      },
+      {
+        "question": "¿Tienen estacionamiento?",
+        "answer": "Hay estacionamiento en la calle (gratis después de las 6pm) y un lotero a media cuadra por $5 todo el día."
+      }
+    ]
+  },
+  "about": {
+    "title": "Nuestra Historia",
+    "subtitle": "Donde la tradición mexicana encuentra el calor de Miami",
+    "story": "Fundado en 2019 por los hermanos Vega, originarios de Puebla y radicados en Miami por más de 15 años. Empezaron como un pequeño puesto en una feria local; hoy son punto de encuentro para la comunidad mexicana y amantes de la buena comida. Cada receta viene de su abuela Doña Elena.",
+    "values": {
+      "title": "Nuestros Valores",
+      "authenticity": "Autenticidad",
+      "family": "Tradición Familiar",
+      "quality": "Calidad",
+      "community": "Comunidad"
+    },
+    "team": {
+      "title": "Los Hermanos Vega",
+      "description": "Llevando el sabor de Puebla a Miami, un platillo a la vez."
+    }
+  },
+  "contact": {
+    "title": "Reserva tu mesa",
+    "subtitle": "Estamos listos para recibirte. Haz tu reserva y disfruta de una experiencia gastronómica inolvidable.",
+    "info": {
+      "title": "Información de Contacto",
+      "location_title": "Ubicación",
+      "contact_title": "Teléfono",
+      "email_title": "Correo Electrónico",
+      "hours_title": "Horario de Atención",
+      "location": "2340 SW 8th Street, Miami, FL 33135 (Little Havana)",
+      "phone": "+1 (305) 555-2390",
+      "email": "hola@cieloymaiz.com",
+      "hours": "Lun-Vie: 12pm-10pm\nSáb-Dom: Cerrado",
+      "languages": "Español, Inglés"
+    },
+    "form": {
+      "heading": "Haz tu reserva",
+      "name": "Nombre Completo",
+      "name_placeholder": "Ingrese su nombre completo",
+      "email": "Correo Electrónico",
+      "email_placeholder": "Ingrese su correo electrónico",
+      "phone": "Teléfono",
+      "phone_placeholder": "Ingrese su número de teléfono",
+      "date": "Fecha",
+      "time": "Hora",
+      "guests": "Número de personas",
+      "guests_placeholder": "Seleccione",
+      "service": "Tipo de ocasión",
+      "service_placeholder": "Seleccione una opción",
+      "service_info": "Comida regular",
+      "service_other": "Otro",
+      "notes": "Notas especiales",
+      "notes_placeholder": "Alergias, ocasión especial, solicitudes...",
+      "message": "Mensaje adicional",
+      "message_placeholder": "Información adicional para tu reserva",
+      "submit": "Reservar mesa",
+      "sending": "Enviando...",
+      "success": "¡Reserva enviada! Te contactaremos pronto para confirmar.",
+      "error": "Error al enviar la reserva. Por favor intente nuevamente o llámenos directamente."
+    }
+  },
+  "reservation": {
+    "notice": "Para grupos de 4-12 personas. Se requiere depósito de $5 por persona.",
+    "cta_whatsapp": "Reservar por WhatsApp",
+    "cta_call": "Llamar ahora"
+  }
+}

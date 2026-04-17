@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Cielo y Maíz - Paleta Rojo y Verde */
+    --color-primary: #059669;           /* Verde Jade */
+    --color-primary-hover: #047857;     /* Verde oscuro */
+    --color-secondary: #10B981;         /* Verde esmeralda */
+    --color-accent: #DC2626;            /* Rojo vivo */
+    --color-accent-hover: #B91C1C;    /* Rojo oscuro */
+    --color-background: #FFFFFF;        /* Blanco */
+    --color-bg-light: #F0FDF4;          /* Verde muy claro */
+    --color-bg-dark: #064E3B;           /* Verde oscuro fondos */
+    --color-text-dark: #064E3B;         /* Verde oscuro texto */
+    --color-text-light: #FFFFFF;        /* Blanco para texto */
+    --color-text-muted: #6B7280;        /* Gris texto secundario */
+    --color-border-light: #D1FAE5;      /* Verde claro bordes */
+    --color-border-dark: #064E3B;       /* Verde oscuro bordes */
+  }
+}
+
+/* Font families */
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-accent {
+  font-family: 'Rye', cursive;
+}

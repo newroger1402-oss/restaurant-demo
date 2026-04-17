@@ -1,0 +1,226 @@
+{
+  "common": {
+    "home": "Home",
+    "services": "Menu",
+    "about": "About Us",
+    "faq": "FAQ",
+    "contact": "Reservations",
+    "menu": "Menu",
+    "reservations": "Reservations",
+    "order": "Order"
+  },
+  "header": {
+    "logo": "Cielo y Maíz",
+    "nav": {
+      "home": "Home",
+      "services": "Menu",
+      "about": "About Us",
+      "contact": "Reservations",
+      "faq": "FAQ"
+    },
+    "cta": "Book a Table",
+    "language": {
+      "en": "EN",
+      "es": "ES"
+    }
+  },
+  "footer": {
+    "about": "Authentic Mexican cuisine made by Mexican hands in Miami. Hand-nixtamalized corn, Oaxacan chiles, and recipes that cross borders without losing their soul.",
+    "quick_links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "services": "Menu",
+      "about": "About Us",
+      "contact": "Reservations",
+      "faq": "FAQ"
+    },
+    "services": {
+      "title": "Menu",
+      "service1": "Starters",
+      "service2": "Main Courses",
+      "service3": "Desserts"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+1 (305) 555-2390",
+      "email": "hola@cieloymaiz.com"
+    },
+    "crescendo": "Powered by Crescendo Marketing",
+    "copyright": "© {{year}} Cielo y Maíz. All rights reserved.",
+    "copyright_rights": "All rights reserved."
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Happy Diners",
+    "subtitle": "Discover why hundreds of diners enjoy our cuisine every day."
+  },
+  "floating": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "tiktok": "TikTok"
+  },
+  "home": {
+    "hero": {
+      "title": "Where Miami's sun embraces Mexican earth",
+      "subtitle": "Authentic Mexican cuisine made by Mexican hands. Hand-nixtamalized corn, traditional moles, and flavors that cross borders without losing their soul.",
+      "cta_primary": "Book a Table",
+      "cta_secondary": "View Menu"
+    },
+    "features": {
+      "nixtamal": "Hand-nixtamalized corn",
+      "abuela": "Recipes from Grandma Doña Elena",
+      "familia": "Warm family atmosphere"
+    },
+    "services": {
+      "title": "Our Menu",
+      "subtitle": "Discover our specialties prepared with fresh ingredients and Mexican tradition.",
+      "cta": "View Full Menu"
+    },
+    "delivery": {
+      "title": "We also deliver to your home",
+      "ubereats": "Uber Eats",
+      "doordash": "DoorDash",
+      "pickup": "WhatsApp Pickup"
+    },
+    "hours": {
+      "title": "Hours",
+      "schedule": "Mon: Closed | Tue-Thu: 12pm-10pm | Fri: 12pm-12am | Sat: 11am-12am | Sun: 11am-9pm"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about your visit to Cielo y Maíz.",
+      "cta": "See All FAQs"
+    },
+    "contact": {
+      "title": "Book Your Table",
+      "subtitle": "Make your reservation and enjoy an unforgettable gastronomic experience.",
+      "cta": "Book Now"
+    }
+  },
+  "services": {
+    "title": "Our Menu",
+    "subtitle": "Authentic Mexican cuisine prepared with love, tradition, and the finest ingredients.",
+    "cta": "Book a Table",
+    "entradas": {
+      "title": "Starters",
+      "description": "Begin your experience with our delicious starters prepared with fresh ingredients and Mexican tradition."
+    },
+    "principales": {
+      "title": "Main Courses",
+      "description": "The heart of our kitchen. Traditional recipes with authentic Mexican flavor in every bite."
+    },
+    "postres": {
+      "title": "Desserts",
+      "description": "End your meal with our irresistible sweet options, handcrafted with grandma's recipes."
+    },
+    "bebidas": {
+      "title": "Drinks",
+      "description": "Refreshing aguas frescas, Mexican sodas, traditional coffee, and our mixology specialties."
+    },
+    "especialidades": {
+      "title": "House Specialties",
+      "description": "Our unique creations that combine Mexican tradition with the spirit of Miami."
+    },
+    "header": {
+      "title": "Our Menu",
+      "subtitle": "Explore all our gastronomic options prepared with dedication and Mexican tradition."
+    },
+    "categories": {
+      "entradas": "Starters",
+      "principales": "Main Courses",
+      "postres": "Desserts",
+      "bebidas": "Drinks",
+      "especialidades": "House Specialties"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about your visit to Cielo y Maíz.",
+    "items": [
+      {
+        "question": "Do you have vegetarian or vegan options?",
+        "answer": "Yes, we have tlacoyos, vegetarian enchiladas (with mushrooms or zucchini), and we can adapt several dishes. Ask your server."
+      },
+      {
+        "question": "Do you offer delivery?",
+        "answer": "Yes, through Uber Eats and DoorDash. You can also order directly via WhatsApp for pickup in 20 minutes."
+      },
+      {
+        "question": "Do you accept credit cards?",
+        "answer": "Yes, all major cards, Apple Pay, and cash. We don't accept checks."
+      },
+      {
+        "question": "Do you have parking?",
+        "answer": "There's street parking (free after 6pm) and a parking lot half a block away for $5 all day."
+      }
+    ]
+  },
+  "about": {
+    "title": "Our Story",
+    "subtitle": "Where Mexican tradition meets Miami's warmth",
+    "story": "Founded in 2019 by the Vega brothers, originally from Puebla and living in Miami for over 15 years. They started as a small stand at a local fair; today they are a gathering point for the Mexican community and food lovers. Every recipe comes from their grandmother Doña Elena.",
+    "values": {
+      "title": "Our Values",
+      "authenticity": "Authenticity",
+      "family": "Family Tradition",
+      "quality": "Quality",
+      "community": "Community"
+    },
+    "team": {
+      "title": "The Vega Brothers",
+      "description": "Bringing the flavor of Puebla to Miami, one dish at a time."
+    }
+  },
+  "contact": {
+    "title": "Book Your Table",
+    "subtitle": "We're ready to welcome you. Make your reservation and enjoy an unforgettable gastronomic experience.",
+    "info": {
+      "title": "Contact Information",
+      "location_title": "Location",
+      "contact_title": "Phone",
+      "email_title": "Email",
+      "hours_title": "Business Hours",
+      "location": "2340 SW 8th Street, Miami, FL 33135 (Little Havana)",
+      "phone": "+1 (305) 555-2390",
+      "email": "hola@cieloymaiz.com",
+      "hours": "Mon-Fri: 12pm-10pm\nSat-Sun: Closed",
+      "languages": "Spanish, English"
+    },
+    "form": {
+      "heading": "Make a Reservation",
+      "name": "Full Name",
+      "name_placeholder": "Enter your full name",
+      "email": "Email Address",
+      "email_placeholder": "Enter your email address",
+      "phone": "Phone Number",
+      "phone_placeholder": "Enter your phone number",
+      "date": "Date",
+      "time": "Time",
+      "guests": "Number of guests",
+      "guests_placeholder": "Select",
+      "service": "Occasion type",
+      "service_placeholder": "Select an option",
+      "service_info": "Regular dining",
+      "service_other": "Other",
+      "notes": "Special notes",
+      "notes_placeholder": "Allergies, special occasion, requests...",
+      "message": "Additional message",
+      "message_placeholder": "Additional information for your reservation",
+      "submit": "Book Table",
+      "sending": "Sending...",
+      "success": "Reservation sent! We'll contact you soon to confirm.",
+      "error": "Failed to send reservation. Please try again or call us directly."
+    }
+  },
+  "reservation": {
+    "notice": "For groups of 4-12 people. A $5 deposit per person is required.",
+    "cta_whatsapp": "Book via WhatsApp",
+    "cta_call": "Call Now"
+  }
+}
